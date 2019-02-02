@@ -63,17 +63,18 @@ canvas {
    /* background-color: #232741;    */
 }
 
-.avatar-hero img {
+/* .avatar-hero img {
 	width: 200px;
 	margin: 0 auto;
-	/* border: solid 3px #dfdfdf; */
+  /* border: solid 3px #dfdfdf; */
+  /*
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
 	-webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.52);
 	-moz-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.52);
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.52);
-}
+} */
 
 .icy svg.svg-inline--fa {
   color: white en!important;
@@ -88,6 +89,7 @@ canvas {
 .brandtext:hover {
   color:green !important;
 }
+
 /* .navbar-brand:hover {
   color:green !important;
 } */
@@ -99,23 +101,19 @@ canvas {
   top: 38%;
   z-index: 1;
 }
- 
 
 .caption h1 {
   color: white;
   font-size: 4.5rem;
   /* text-transform: uppercase; */
-
   font-weight: 700;
   letter-spacing: .3rem;
   text-shadow: .1rem .1rem .8rem black;
-  padding-bottom: 1rem;
-  
+  padding-bottom: 1rem;  
   /* margin: 0.4rem;
   font-size: 3.5rem;
   font-family: 'Raleway', sans-serif; */
 }
-
 
 .caption h3 {
   color: white;
@@ -123,12 +121,10 @@ canvas {
   /* text-transform: uppercase; */
   font-weight: 400;
   text-shadow: .1rem .1rem .5rem black;
-  padding-bottom: 2rem;
-  
-    /* color: #aaa; */  
- 
-    margin: 0.4rem;  
-    color: lightgrey  
+  padding-bottom: 2rem;  
+  /* color: #aaa; */   
+  margin: 0.4rem;  
+  color: lightgrey  
   
 }
 
@@ -158,6 +154,7 @@ canvas {
   margin: 0 auto;
   padding-top: 2rem;
 }
+
 .btn-sm {
   border-width: medium;
   border-radius: 0;
@@ -167,25 +164,29 @@ canvas {
   text-transform: uppercase;
   margin: 1rem;
 }
+
 .btn-turquoise {
   border-color: green;
   background-color: green;
   color: white;
 }
+
 .btn-turquoise:hover,
 .btn-turquoise:focus {
   border-color: darkgreen;
   background-color: darkgreen;
   color: white;
 }
+
 .jumbotron {
   margin-bottom: 0;
   border-radius: 0;
   padding: 0 0 3rem;
-  background: #141414;  
+  /* background: #141414;   */
+  background-color: black;
   /* background-image: url('img/footer/footer.png');
   background-size: cover; */
-  background-color:rgba(0, 0, 0, 0.9);  
+  /* background-color:rgba(0, 0, 0, 0.9);   */
   color: white;    
 }
 
@@ -204,26 +205,31 @@ h3.heading {
   text-align: center;
   margin-bottom: 1.9rem;
 }
+
 .heading-underline {
   width: 3rem;
   height: .2rem;
   background-color: green;
   margin: 0 auto 2rem;
 }
+
 .feature {
   text-align: center;
 }
+
 .feature .fa-layers {
   color: green;
   margin: 0 auto;
   width: 3.9rem;
   height: 6rem;
 }
+
 .feature h3 {
   font-size: 1.3rem;
   text-transform: uppercase;
   padding-bottom: .4rem;
 }
+
 .feature p {
   font-size: 1.1rem;
 }
@@ -234,6 +240,7 @@ h3.heading {
   background-image: url('img/Free-wallpaper-hd-background-desktop.jpg');
   z-index: -1;
 }
+
 .dark {
   background-color: rgba(0, 0, 0, 0.50);
   /* padding: 7rem 2rem; */
@@ -241,18 +248,19 @@ h3.heading {
   text-align: center;
   z-index: 1000!important;
 }
+
 .dark h3, .dark p {
   color: #E9ECEF;
 }
 
-#particles2-js canvas{
+/* #particles2-js canvas{
     position: absolute;
     z-index: 0!important;
     width: 100%;
     height: 100%;
-}
-/*============= PORTFOLIO SECTION =============*/
+} */
 
+/*============= PROJECTS SECTION =============*/
 
 .row.padding {
   padding: 2rem 0 1rem;
@@ -275,54 +283,7 @@ img.example-image {
   margin: 1rem;
 }
 
-/*============= PRICING SECTION =============*/
-
-.pricing-column {
-  background-color: white;
-  padding: 2rem;
-  border-top: .2rem solid green;
-  box-shadow: 0 0 .8rem rgba(0, 0, 0, 0.075);
-  transition: transform .7s ease;
-  overflow: hidden;
-  position: relative;
-}
-.pricing-column:hover {
-  transform: scale(1.1);
-}
-.pricing-column h3 {
-  padding: 1rem;
-  border-bottom: .1rem solid rgba(0, 0, 0, 0.1);
-}
-.pricing-column p {
-  opacity: .8;
-  margin-top: 1.3rem;
-}
-.pricing-column h4 {
-  font-size: 1.1rem;
-  padding: .4rem;
-}
-.pricing-column .item {
-  font-weight: 700;
-}
-.pricing-column h1 {
-  padding: .8rem 0;
-}
-.ribbon {
-  background-color: #6c757d;
-  color: white;
-  width: 10rem;
-  height: 2rem;
-  font-size: .8rem;
-  font-weight: 700;
-  padding-top: .4rem;
-  position: absolute;
-  right: -2.8rem;
-  top: 1.6rem;
-  transform: rotate(45deg);
-  box-shadow: 0 0 .2rem rgba(0, 0, 0, 0.25);
-}
-
-/*============= TEAM SECTION FIXED BG IMG LIGHT =============*/
+/*============= FIXED BG IMG LIGHT =============*/
 
 #fixed-2 {
   /* background-image: url('img/Free-wallpaper-hd-background-desktop.jpg'); */
@@ -378,39 +339,6 @@ img.example-image {
 .owl-dot.active span,
 .owl-dot:hover span {
   background: green!important;
-}
-
-/*============= SKILLS SECTION =============*/
-
-.skill h3 {
-  color: green;
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin: 1rem 0 .5rem;
-}
-.skill p {
-  font-size: 1.1rem;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
-/*============= CLIENTS SECTION =============*/
-
-.clients img {
-  width: 100%;
-  height: auto;
-  border-radius: 50%;
-  transition: transform .3s ease;
-}
-.clients img:hover {
-  transform: scale(0.95);
-}
-blockquote .svg-inline--fa {
-  margin: 1rem;
-  color: green;
-}
-.clients-hr {
-  border-top: .05rem solid green;
 }
 
 /*============= CONTACT SECTION =============*/
@@ -476,13 +404,13 @@ input.btn {
   font-size: 1.3rem;
   width: 2rem;
   margin-top: 1.2rem;
-  padding: 0;
-  
+  padding: 0;  
   /* margin-left: 1rem;   */  
 }
 .post-short-meta-container > span {
   display: inline-block;
 }
+
 /* .contactlinks svg.svg-inline--fa:hover {
   color:green !important;
 } */
@@ -600,7 +528,6 @@ a.top-scroll:hover {
     font-size: 2rem;
   }
 }
-
 
 /*============ BOOTSTRAP BREAK POINTS:
 
