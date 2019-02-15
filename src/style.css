@@ -563,8 +563,17 @@ a.top-scroll:hover {
   .narrow {
     width: 95%;
   }
+
+
+  #portfolio h3 {
+    font-size: 1.7rem;
+  }
+  #features h3{
+    font-size: 1.7rem;
+  }
+
   #contact h3 {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 }
 
