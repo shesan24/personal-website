@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
 
+
 body {
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
@@ -177,6 +178,11 @@ canvas {
   background-color: darkgreen;
   color: white;
 }
+/* .svg-inline--fa {
+  margin: .7rem;
+  color: green;
+} */
+
 
 .jumbotron {
   margin-bottom: 0;
@@ -234,6 +240,15 @@ h3.heading {
   font-size: 1.1rem;
 }
 
+.quote {
+  font: 400 30px/0.8 'Great Vibes', Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+  /* font: 400 30px/1.5 'Pacifico', Helvetica, sans-serif;
+  color: white;
+  text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05); */
+}
+
 /*===== FIXED BACKGROUND IMG DARK =====*/
 
 #fixed {
@@ -281,6 +296,30 @@ img.example-image {
 .portfolio-item {
   overflow: hidden;   
   margin: 1rem;
+}
+
+.portfolio-modal .portfolio-modal-dialog {
+  padding: 3rem 1rem;
+  min-height: calc(100vh - 2rem);
+  margin: 1rem calc(1rem - 8px);
+  position: relative;
+  z-index: 2;
+  -webkit-box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+.portfolio-modal .portfolio-modal-dialog .close-button {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.portfolio-modal .portfolio-modal-dialog .close-button i {
+  line-height: 38px;
+}
+
+.portfolio-modal .portfolio-modal-dialog h2 {
+  font-size: 2rem;
 }
 
 /*============= FIXED BG IMG LIGHT =============*/
@@ -469,12 +508,12 @@ a.top-scroll:hover {
 /* Devices under 768px (md) */
 @media (max-width: 767px) {
   .caption h1 {
-    font-size: 2.9rem;
+    font-size: 4rem;
     letter-spacing: .15rem;
     padding-bottom: .5rem;
   }
   .caption h3 {
-    font-size: 1.9rem;
+    font-size: 2.6rem;
     padding-bottom: 1.2rem;
   }
   .btn-lg {
@@ -509,12 +548,12 @@ a.top-scroll:hover {
 /* Devices under 576px (sm) */
 @media (max-width: 575px) {
   .caption h1 {
-    font-size: 2.5rem;
+    font-size: 3.1rem;
     letter-spacing: .1rem;
     padding-bottom: .4rem;
   }
   .caption h3 {
-    font-size: 1.5rem;
+    font-size: 2.3rem;
     padding-bottom: 1rem;
   }
   .btn-lg {
