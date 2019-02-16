@@ -60,7 +60,7 @@ canvas {
 } 
 
 .home-inner {
-  background-image: url('img/53790740_p0.jpg');
+  background-image: url('img/Free-wallpaper-hd-background-desktop.jpg');
    /* background-color: #232741;    */
 }
 
@@ -252,7 +252,7 @@ h3.heading {
 /*===== FIXED BACKGROUND IMG DARK =====*/
 
 #fixed {
-  background-image: url('img/ghpFRWI.png');
+  background-image: url('img/Free-wallpaper-hd-background-desktop.jpg');
   z-index: -1;
 }
 
@@ -524,7 +524,7 @@ a.top-scroll:hover {
     font-size: 1.8rem;
   }
   #fixed {
-    background-image: url('img/ghpFRWI.png');
+    background-image: url('img/Free-wallpaper-hd-background-desktop.jpg');
   }
   #fixed-2 {
     background-image: url('img/fixed/office-mobile.png');
