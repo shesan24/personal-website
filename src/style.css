@@ -91,9 +91,13 @@ canvas {
   color:green !important;
 }
 
-/* .navbar-brand:hover {
-  color:green !important;
-} */
+.navbar-brand{
+  margin: 0;
+}
+
+.leftelem{
+  display: inline;
+}
 
 .caption {
   width: 100%;
@@ -177,6 +181,11 @@ canvas {
   border-color: darkgreen;
   background-color: darkgreen;
   color: white;
+  
+}
+
+.btn-turquoise:hover:enabled{
+  cursor: pointer;  
 }
 /* .svg-inline--fa {
   margin: .7rem;
@@ -242,7 +251,7 @@ h3.heading {
 
 .quote {
   font: 400 35px/0.8 'Great Vibes', Helvetica, sans-serif;
-  color: black;
+  color: white;
   text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
   /* font: 400 30px/1.5 'Pacifico', Helvetica, sans-serif;
   color: white;
@@ -437,6 +446,12 @@ footer h3 {
 input.btn {
   cursor: pointer;
 }
+
+/* .alert {
+  color: white;
+  background: green;
+  display: none;
+} */
 
 .contactlinks svg.svg-inline--fa {
   color: white;
